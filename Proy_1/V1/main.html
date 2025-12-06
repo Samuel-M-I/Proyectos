@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>Tareas</header>
+    <span>
+        <h3>Crear una nueva tarea</h3>
+            <div css>
+            <select class="Alta"name="fPrioridad" id="fPrioridad">
+                <option value="Alta" class="Alta">
+                    Alta
+                </option>
+                <option value="Media" class="Media">
+                    Media
+                </option>
+                <option value="Baja" class="Baja">
+                    Baja
+                </option>
+            </select>
+            <input type="text" name="Tarea" id="Tarea" placeholder="Nombre de la tarea">
+        </div>
+            <button type="button" id="boton" >Crear Tarea</button> 
+    </span>
+    <span>
+        <h3>Tareas</h3>
 
+        <ul id="listaAlta"></ul>
+        <ul id="listaMedia"></ul>
+        <ul id="listaBaja"></ul>
+        
+    </span>
+    <span><h3>Tareas Completas</h3>
+    <ul id="listaCompletas"></ul></span>
+</body>
+</html>

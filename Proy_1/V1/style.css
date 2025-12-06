@@ -1,1 +1,90 @@
 
+
+
+body{
+    background-color:#111008f8;
+    font-family: Inter;
+    color: #f3f2e6;
+}
+header{
+    color: #d4d1a7;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    color: #f3f2e6;
+}
+span{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin:  20px 25%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #383727;
+    box-shadow: black 2px 2px 10px;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    color:#f3f2e6 ;
+    background-color: #9855ad;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #8c24ab;
+}
+li{
+    background-color: #374173;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    box-shadow: black 2px 2px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    margin:none;
+    padding: 0;
+    width: 100%;
+}
+select{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-weight:bold;
+    border:black 1px solid;
+}
+.Alta{
+   background-color: #a70f0fff;
+   color: #f3f2e6;
+   font-weight:bold;
+}
+.Baja{
+    background-color: #0a630aff;
+    color: #f3f2e6;
+    font-weight:bold;
+}
+.Media{
+    background-color: #e6ba0aff;
+    color: #f3f2e6;
+    font-weight:bold;
+}
